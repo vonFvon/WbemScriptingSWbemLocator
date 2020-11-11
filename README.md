@@ -15,6 +15,8 @@ Now,  you connect to WMI on the specified computer.
    
 Finally, you need the ExecQuery method of the SWbemServices object in order to execute a query to retrieve objects. These objects are available through the returned SWbemObjectSet collection.
 
+By the way, you must browse the sample on Internet Explorer and allow blocked content.
+
 #### Remarks
 ###### Win32_Process WMI class represents a process on an operating system.
 - Properties :
