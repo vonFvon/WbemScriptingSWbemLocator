@@ -18,51 +18,51 @@ Finally, you need the ExecQuery method of the SWbemServices object in order to e
 #### Remarks
 ###### Win32_Process WMI class represents a process on an operating system.
 - Properties :
->>string   CreationClassName;
->>string   Caption;
->>string   CommandLine;
->>datetime CreationDate;
->>string   CSCreationClassName;
->>string   CSName;
->>string   Description;
->>string   ExecutablePath;
->>uint16   ExecutionState;
->>string   Handle;
->>uint32   HandleCount;
->>datetime InstallDate;
->>uint64   KernelModeTime;
->>uint32   MaximumWorkingSetSize;
->>uint32   MinimumWorkingSetSize;
->>string   Name;
->>string   OSCreationClassName;
->>string   OSName;
->>uint64   OtherOperationCount;
->>uint64   OtherTransferCount;
->>uint32   PageFaults;
->>uint32   PageFileUsage;
->>uint32   ParentProcessId;
->>uint32   PeakPageFileUsage;
->>uint64   PeakVirtualSize;
->>uint32   PeakWorkingSetSize;
->>uint32   Priority = NULL;
->>uint64   PrivatePageCount;
->>uint32   ProcessId;
->>uint32   QuotaNonPagedPoolUsage;
->>uint32   QuotaPagedPoolUsage;
->>uint32   QuotaPeakNonPagedPoolUsage;
->>uint32   QuotaPeakPagedPoolUsage;
->>uint64   ReadOperationCount;
->>uint64   ReadTransferCount;
->>uint32   SessionId;
->>string   Status;
->>datetime TerminationDate;
->>uint32   ThreadCount;
->>uint64   UserModeTime;
->>uint64   VirtualSize;
->>string   WindowsVersion;
->>uint64   WorkingSetSize;
->>uint64   WriteOperationCount;
->>uint64   WriteTransferCount;
+>>string   CreationClassName; |
+>>string   Caption; |
+>>string   CommandLine; |
+>>datetime CreationDate; |
+>>string   CSCreationClassName; |
+>>string   CSName; |
+>>string   Description; |
+>>string   ExecutablePath; |
+>>uint16   ExecutionState; |
+>>string   Handle; |
+>>uint32   HandleCount; |
+>>datetime InstallDate; |
+>>uint64   KernelModeTime; |
+>>uint32   MaximumWorkingSetSize; |
+>>uint32   MinimumWorkingSetSize; |
+>>string   Name; |
+>>string   OSCreationClassName; |
+>>string   OSName; |
+>>uint64   OtherOperationCount; |
+>>uint64   OtherTransferCount; |
+>>uint32   PageFaults; |
+>>uint32   PageFileUsage; |
+>>uint32   ParentProcessId; |
+>>uint32   PeakPageFileUsage; |
+>>uint64   PeakVirtualSize; |
+>>uint32   PeakWorkingSetSize; |
+>>uint32   Priority = NULL; |
+>>uint64   PrivatePageCount; |
+>>uint32   ProcessId; |
+>>uint32   QuotaNonPagedPoolUsage; |
+>>uint32   QuotaPagedPoolUsage; |
+>>uint32   QuotaPeakNonPagedPoolUsage; |
+>>uint32   QuotaPeakPagedPoolUsage; |
+>>uint64   ReadOperationCount; |
+>>uint64   ReadTransferCount; |
+>>uint32   SessionId; |
+>>string   Status; |
+>>datetime TerminationDate; |
+>>uint32   ThreadCount; |
+>>uint64   UserModeTime; |
+>>uint64   VirtualSize; |
+>>string   WindowsVersion; |
+>>uint64   WorkingSetSize; |
+>>uint64   WriteOperationCount; |
+>>uint64   WriteTransferCount; |
 
 ###### Win32_Processor WMI class represents a device that can interpret a sequence of instructions on a computer running on a Windows operating system.
 - Properties :
