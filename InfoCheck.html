@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<HEAD>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<TITLE> ActiveXObject </TITLE>
+</HEAD>
+
+<BODY>
+	<script type="text/javascript">
+		<!-- WinOS Process List -->
+		var locator = new ActiveXObject("WbemScripting.SWbemLocator");
+		var service = locator.ConnectServer(".");
+		var properties = service.ExecQuery("SELECT * FROM Win32_Process");
+		var np = new Enumerator(properties);
+		np.moveFirst();
+		var i = 1;
+		for (; !np.atEnd(); np.moveNext()) {
+			document.write('<span>' + i + " " + "-" + " " + np.item().Name + '</span></br>');
+			i++;
+		}
+
+	    <!-- CPU Information -->
+		properties = service.ExecQuery("SELECT * FROM Win32_Processor");
+		np = new Enumerator(properties);
+		cpu = np.item();
+		document.write('<span>' + cpu.Name + " " + "-" + " " + cpu.LoadPercentage + '%' + '</span></br>');
+	</script>
+</BODY>
+
+</HTML>
