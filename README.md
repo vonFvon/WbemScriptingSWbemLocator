@@ -18,10 +18,10 @@ Finally, you need the ExecQuery method of the SWbemServices object in order to e
 #### Remarks
 ###### Win32_Process WMI class represents a process on an operating system.
 - Properties :
->>string   CreationClassName; |
->>string   Caption; |
->>string   CommandLine; |
->>datetime CreationDate; |
+>> | string   CreationClassName; |
+>> | string   Caption; |
+>> | string   CommandLine; |
+>> | datetime CreationDate; |
 >>string   CSCreationClassName; |
 >>string   CSName; |
 >>string   Description; |
